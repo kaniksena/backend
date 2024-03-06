@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const userGet = require('./get.js');
-const userPost = require('./post.js');
+const userGet = require('./userRoutes/getController.js');
+const userPost = require('./userRoutes/postController.js');
 
 const app = express();
 const PORT = process.env.PORT || 5005;
