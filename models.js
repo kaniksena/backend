@@ -3,8 +3,9 @@ const mongoose = require('mongoose');
 const UserSchema = new mongoose.Schema({
   username: String,
   name: String,
-  sifre: String,
+  password: String,
   surname: String,
+  id: Int16Array,
   // Diğer kullanıcı bilgilerini buraya ekleyin
 });
 
